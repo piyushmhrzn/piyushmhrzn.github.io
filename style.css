@@ -193,8 +193,8 @@ html,body{
     color: #FD7E14;
 }
 
-.fa-angular{
-    color: #E52A3A;
+.fa-git{
+    color: #f783ac;
 }
 
 .fa-code,
@@ -202,7 +202,7 @@ html,body{
 .fa-css3,
 .fa-js,
 .fa-sass,
-.fa-angular{
+.fa-git{
     font-size: 4em;
     margin: 1rem;
 }
