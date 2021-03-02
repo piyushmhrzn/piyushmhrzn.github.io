@@ -1,11 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins: 400,500,700');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins: 400,500,700'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
 html,body{
     height: 100%;
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #222;
     scroll-behavior: smooth;
+}
+
+h1{
+    font-family: 'Kaushan Script', sans-serif;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
 }
 
 /*--------------------------------------------------------------------------------------------------------- 
@@ -33,7 +44,7 @@ html,body{
 ---------------------------------------------------------------------------------------------------------*/
 
 #slides{
-    padding-top: 5rem;
+    padding-top: 4.2rem;
 }
 
 .carousel-inner img{
@@ -58,6 +69,14 @@ html,body{
     font-weight: 500;
     text-shadow: 1px 1px 10px #000;
     padding-bottom: 1rem;
+}
+
+.btn-outline-light:hover{
+    background-color: #ccc;
+}
+
+.btn-outline-light a:hover{
+    color: #222;
 }
 
 .btn-primary{
@@ -143,6 +162,7 @@ html,body{
 #passion img{
     border-radius: 5px;
     box-shadow: 5px 5px 5px 5px rgb(63, 61, 61);
+    box-sizing: border-box;
 }
 
 /*--------------------------------------------------------------------------------------------------------- 
@@ -302,6 +322,10 @@ hr.light-100{
                                                 MEDIA QUERIES 
 ---------------------------------------------------------------------------------------------------------*/
 @media (max-width: 992px){
+    .welcome{
+        width: 80%;
+    }
+
     .social a{
         font-size: 4em;
         padding: 2rem;
@@ -330,6 +354,10 @@ hr.light-100{
 
     .display-4{
         font-size: 200%;
+    }
+
+    .welcome{
+        width: 90%;
     }
 
     .social a{
