@@ -203,12 +203,12 @@ h4{
                                                 TECHNOLOGIES 
 ---------------------------------------------------------------------------------------------------------*/
 
-.fa-code{
-    color: #e54d26;
+.fa-cuttlefish{
+    color: #2163af;
 }
 
-.fa-bold{
-    color: #563d7c;
+.fa-code{
+    color: #e54d26;
 }
 
 .fa-css3{
@@ -219,20 +219,34 @@ h4{
     color: #F7DF1E;
 }
 
+.fa-php{
+    color: #2163af;
+}
+
+.fa-laravel{
+    color: #e54d26;
+}
+
 .fa-sass{
     color: #FD7E14;
+}
+
+.fa-bold{
+    color: #563d7c;
 }
 
 .fa-git{
     color: #f783ac;
 }
 
+.fa-cuttlefish,
 .fa-code,
-.fa-bold,
 .fa-css3,
 .fa-js,
+.fa-php,
+.fa-laravel,
 .fa-sass,
-.fa-git{
+.fa-bold{
     font-size: 4em;
     margin: 1rem;
 }
@@ -462,6 +476,22 @@ hr.light-100{
 
     .display-4{
         font-size: 140%;
+    }
+
+    .fa-cuttlefish,
+    .fa-code,
+    .fa-css3,
+    .fa-js,
+    .fa-php,
+    .fa-laravel,
+    .fa-sass,
+    .fa-bold{
+        font-size: 2em;
+        margin: 0.5rem;
+    }
+
+    #technologies .technologies h3{
+        font-size: 14px;
     }
 
     .social a{
