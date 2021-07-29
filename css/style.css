@@ -289,6 +289,20 @@ a.active {
   display: flex;
 }
 
+.disply-table .resume{
+  position: absolute;
+  margin-top: 50px;
+  padding: 7px 18px;
+  border: 2px solid #337ab7;
+  transition: all 0.3s ease-in;
+}
+
+.disply-table .resume:hover{
+  background: #337ab7;
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+
 /* about section
 ==================================================*/
 
@@ -457,6 +471,47 @@ a.active {
   height: 100px;
   line-height: 7;
   font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+#skills .skills-flex-wrapper .dev-wrapper .dev-item.html:hover {
+  border: 2px solid #E44D26;
+  color: #E44D26;
+  transition: all 0.3s ease-in-out;
+}
+#skills .skills-flex-wrapper .dev-wrapper .dev-item.css:hover {
+  border: 2px solid #248DC4;
+  color: #248DC4;
+  transition: all 0.3s ease-in-out;
+}
+#skills .skills-flex-wrapper .dev-wrapper .dev-item.js:hover {
+  border: 2px solid #EFD81D;
+  color: #EFD81D;
+  transition: all 0.3s ease-in-out;
+}
+#skills .skills-flex-wrapper .dev-wrapper .dev-item.php:hover {
+  border: 2px solid #787CB4;
+  color: #787CB4;
+  transition: all 0.3s ease-in-out;
+}
+#skills .skills-flex-wrapper .dev-wrapper .dev-item.laravel:hover {
+  border: 2px solid #E83A2D;
+  color: #E83A2D;
+  transition: all 0.3s ease-in-out;
+}
+#skills .skills-flex-wrapper .dev-wrapper .dev-item.jquery:hover {
+  border: 2px solid #1066A9;
+  color: #1066A9;
+  transition: all 0.3s ease-in-out;
+}
+#skills .skills-flex-wrapper .dev-wrapper .dev-item.bootstrap:hover {
+  border: 2px solid #533B78;
+  color: #533B78;
+  transition: all 0.3s ease-in-out;
+}
+#skills .skills-flex-wrapper .dev-wrapper .dev-item.sass:hover {
+  border: 2px solid #CE679A;
+  color: #CE679A;
+  transition: all 0.3s ease-in-out;
 }
 @media only screen and (max-width: 1170px) {
   #skills .skills-flex-wrapper .dev-wrapper .dev-item {
@@ -933,6 +988,11 @@ a.active {
   #home,
   .disply-table {
     height: 600px;
+  }
+  .disply-table .resume{
+    font-size: small;
+    margin-top: 45px;
+    padding: 4px 14px;
   }
   .about-border {
     width: 265px;
