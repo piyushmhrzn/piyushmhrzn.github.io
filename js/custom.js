@@ -158,13 +158,19 @@ $(document).ready(function () {
         modalTarget: 'paChhen',
     });
     $("#project04").animatedModal({
-        modalTarget: 'travelNepal',
+        modalTarget: 'dakshyaShop',
     });
     $("#project05").animatedModal({
         modalTarget: 'kasthamandap',
     });
     $("#project06").animatedModal({
         modalTarget: 'myPortfolio',
+    });
+    $("#project07").animatedModal({
+        modalTarget: 'noyonaCosmetics',
+    });
+    $("#project08").animatedModal({
+        modalTarget: 'graphics',
     });
 });
 
