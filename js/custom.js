@@ -155,21 +155,15 @@ $(document).ready(function () {
         modalTarget: 'diamond',
     });
     $("#project03").animatedModal({
-        modalTarget: 'paChhen',
-    });
-    $("#project04").animatedModal({
         modalTarget: 'dakshyaShop',
     });
-    $("#project05").animatedModal({
+    $("#project04").animatedModal({
         modalTarget: 'kasthamandap',
     });
-    $("#project06").animatedModal({
-        modalTarget: 'myPortfolio',
-    });
-    $("#project07").animatedModal({
+    $("#project05").animatedModal({
         modalTarget: 'noyonaCosmetics',
     });
-    $("#project08").animatedModal({
+    $("#project06").animatedModal({
         modalTarget: 'graphics',
     });
 });
