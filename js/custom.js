@@ -152,7 +152,7 @@ $(document).ready(function () {
         modalTarget: 'mentor',
     });
     $("#project02").animatedModal({
-        modalTarget: 'diamond',
+        modalTarget: 'ticker',
     });
     $("#project03").animatedModal({
         modalTarget: 'dakshyaShop',
