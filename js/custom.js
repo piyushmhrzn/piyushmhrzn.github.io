@@ -166,6 +166,9 @@ $(document).ready(function () {
     $("#project06").animatedModal({
         modalTarget: 'graphics',
     });
+    $("#project07").animatedModal({
+        modalTarget: 'localegems',
+    });
 });
 
 // begin begin Back to Top button  

@@ -498,6 +498,11 @@ a.active {
   color: #E83A2D;
   transition: all 0.3s ease-in-out;
 }
+#skills .skills-flex-wrapper .dev-wrapper .dev-item.nodeJS:hover {
+  border: 2px solid #7EB665;
+  color: #7EB665;
+  transition: all 0.3s ease-in-out;
+}
 #skills .skills-flex-wrapper .dev-wrapper .dev-item.jquery:hover {
   border: 2px solid #1066A9;
   color: #1066A9;
@@ -508,9 +513,9 @@ a.active {
   color: #533B78;
   transition: all 0.3s ease-in-out;
 }
-#skills .skills-flex-wrapper .dev-wrapper .dev-item.sass:hover {
-  border: 2px solid #CE679A;
-  color: #CE679A;
+#skills .skills-flex-wrapper .dev-wrapper .dev-item.mysql:hover {
+  border: 2px solid #08668E;
+  color: #08668E;
   transition: all 0.3s ease-in-out;
 }
 @media only screen and (max-width: 1170px) {
